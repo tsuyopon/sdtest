@@ -1,0 +1,6 @@
+jobs:
+  test:
+    requires: [ ~commit, ~pr ]
+    image: centos:7
+    steps:
+      - echo: echo "test is test" 
